@@ -6,7 +6,7 @@ let date =  document.querySelector('#date')
 let explanation = document.querySelector('#explanation')
 
 let roverButton = document.querySelector('#rover')
-let roverImage = null;
+let roverImages = [];
 let cameraName = document.querySelector('#whichCamera')
 
 
