@@ -1,0 +1,96 @@
+
+body {
+    color:gold;
+ background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg');
+ background-size: auto;
+}
+
+img {
+    height: 200 px;
+    width: 400 px;
+    border: dotted yellow 10px;
+}
+
+#todaysDate {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 33px;
+    font-style: italic;
+    color: rgb(247, 47, 47);
+    border: dotted rgb(252, 223, 61) 4px;
+    border-radius: 15%;
+}
+
+#explanation {
+    color: whitesmoke;
+    background: darkblue;
+    font-size: 17px;
+    border: double rgb(131, 177, 223) 17px;
+    height: auto;
+    width: auto;
+}
+
+.picture{
+    height: 300px;
+    width: 400px;
+    border:solid rgb(6, 4, 114) 8px;
+    /* margin:auto; */
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    background-color:  rgb(21, 223, 223);
+    border-radius: 15%;
+   
+}
+
+.button:hover{
+    background-color: #01080d;
+    transition: background-color 1s linear;
+}
+
+#earthDate {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 33px;
+    font-style: italic;
+    color: rgb(247, 47, 47);
+    border: dotted rgb(252, 223, 61) 4px;
+    border-radius: 15%;
+}
+
+ #img1 {
+    height:333px;
+    width: 442px;
+    
+}
+
+
+h1, h3 {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#square1APOD, #rover, #img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px 0px 20px 0px;
+    justify-content: center; 
+}
+
